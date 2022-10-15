@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AtualizarEstoque", "ExerciciosCsharp\AtualizarEstoque.csproj", "{EDA66962-0C2E-4150-927D-A04A9EF23E38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConversorDeMoeda", "ConversorDeMoeda\ConversorDeMoeda.csproj", "{CB32887B-C60F-4402-BABB-27440938BD05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RetornaPessoaMaisVelha", "RetornaPessoaMaisVelha\RetornaPessoaMaisVelha.csproj", "{4431F234-4AC4-48BA-A4FA-0EEF0028A734}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GerenciarFuncionario", "SalarioMedio\GerenciarFuncionario.csproj", "{B621AFB2-19C2-423E-ABFF-9DF288D2A7CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculosRetangulo", "CalculosRetangulo\CalculosRetangulo.csproj", "{B78B58EB-CABA-4358-8CF2-AC050E5F58CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalcularMediaAluno", "CalcularMediaAluno\CalcularMediaAluno.csproj", "{49F5EFAF-D53A-47DA-B495-5F753FB342A5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EDA66962-0C2E-4150-927D-A04A9EF23E38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDA66962-0C2E-4150-927D-A04A9EF23E38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDA66962-0C2E-4150-927D-A04A9EF23E38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDA66962-0C2E-4150-927D-A04A9EF23E38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB32887B-C60F-4402-BABB-27440938BD05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB32887B-C60F-4402-BABB-27440938BD05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB32887B-C60F-4402-BABB-27440938BD05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB32887B-C60F-4402-BABB-27440938BD05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4431F234-4AC4-48BA-A4FA-0EEF0028A734}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4431F234-4AC4-48BA-A4FA-0EEF0028A734}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4431F234-4AC4-48BA-A4FA-0EEF0028A734}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4431F234-4AC4-48BA-A4FA-0EEF0028A734}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B621AFB2-19C2-423E-ABFF-9DF288D2A7CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B621AFB2-19C2-423E-ABFF-9DF288D2A7CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B621AFB2-19C2-423E-ABFF-9DF288D2A7CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B621AFB2-19C2-423E-ABFF-9DF288D2A7CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B78B58EB-CABA-4358-8CF2-AC050E5F58CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B78B58EB-CABA-4358-8CF2-AC050E5F58CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B78B58EB-CABA-4358-8CF2-AC050E5F58CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B78B58EB-CABA-4358-8CF2-AC050E5F58CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49F5EFAF-D53A-47DA-B495-5F753FB342A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49F5EFAF-D53A-47DA-B495-5F753FB342A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49F5EFAF-D53A-47DA-B495-5F753FB342A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49F5EFAF-D53A-47DA-B495-5F753FB342A5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3D8A4E25-E1B0-44C0-AB4C-816587D30B44}
+	EndGlobalSection
+EndGlobal
