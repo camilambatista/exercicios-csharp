@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SalarioMedio
+namespace GerenciarFuncionario
 {
     internal class Funcionario
     {

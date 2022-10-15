@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Camila Batista\\OneDrive\\Documentos\\4. Estudos\\5. Csharp\\Projetos\\ExerciciosCsharp\\SalarioMedio\\GerenciarFuncionario.csproj": {}
+    "C:\\Users\\Camila Batista\\OneDrive\\Documentos\\4. Estudos\\5. Csharp\\Projetos\\ExerciciosCsharp\\AtualizarEstoque\\AtualizarEstoque.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Camila Batista\\OneDrive\\Documentos\\4. Estudos\\5. Csharp\\Projetos\\ExerciciosCsharp\\SalarioMedio\\GerenciarFuncionario.csproj": {
+    "C:\\Users\\Camila Batista\\OneDrive\\Documentos\\4. Estudos\\5. Csharp\\Projetos\\ExerciciosCsharp\\AtualizarEstoque\\AtualizarEstoque.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Camila Batista\\OneDrive\\Documentos\\4. Estudos\\5. Csharp\\Projetos\\ExerciciosCsharp\\SalarioMedio\\GerenciarFuncionario.csproj",
-        "projectName": "GerenciarFuncionario",
-        "projectPath": "C:\\Users\\Camila Batista\\OneDrive\\Documentos\\4. Estudos\\5. Csharp\\Projetos\\ExerciciosCsharp\\SalarioMedio\\GerenciarFuncionario.csproj",
+        "projectUniqueName": "C:\\Users\\Camila Batista\\OneDrive\\Documentos\\4. Estudos\\5. Csharp\\Projetos\\ExerciciosCsharp\\AtualizarEstoque\\AtualizarEstoque.csproj",
+        "projectName": "AtualizarEstoque",
+        "projectPath": "C:\\Users\\Camila Batista\\OneDrive\\Documentos\\4. Estudos\\5. Csharp\\Projetos\\ExerciciosCsharp\\AtualizarEstoque\\AtualizarEstoque.csproj",
         "packagesPath": "C:\\Users\\Camila Batista\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Camila Batista\\OneDrive\\Documentos\\4. Estudos\\5. Csharp\\Projetos\\ExerciciosCsharp\\SalarioMedio\\obj\\",
+        "outputPath": "C:\\Users\\Camila Batista\\OneDrive\\Documentos\\4. Estudos\\5. Csharp\\Projetos\\ExerciciosCsharp\\AtualizarEstoque\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Camila Batista\\AppData\\Roaming\\NuGet\\NuGet.Config",

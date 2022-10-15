@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Camila Batista\\OneDrive\\Documentos\\4. Estudos\\5. Csharp\\Projetos\\ExerciciosCsharp\\ExerciciosCsharp\\AtualizarEstoque.csproj": {}
+    "C:\\Users\\Camila Batista\\OneDrive\\Documentos\\4. Estudos\\5. Csharp\\Projetos\\ExerciciosCsharp\\GerenciarFuncionario\\GerenciarFuncionario.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Camila Batista\\OneDrive\\Documentos\\4. Estudos\\5. Csharp\\Projetos\\ExerciciosCsharp\\ExerciciosCsharp\\AtualizarEstoque.csproj": {
+    "C:\\Users\\Camila Batista\\OneDrive\\Documentos\\4. Estudos\\5. Csharp\\Projetos\\ExerciciosCsharp\\GerenciarFuncionario\\GerenciarFuncionario.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Camila Batista\\OneDrive\\Documentos\\4. Estudos\\5. Csharp\\Projetos\\ExerciciosCsharp\\ExerciciosCsharp\\AtualizarEstoque.csproj",
-        "projectName": "AtualizarEstoque",
-        "projectPath": "C:\\Users\\Camila Batista\\OneDrive\\Documentos\\4. Estudos\\5. Csharp\\Projetos\\ExerciciosCsharp\\ExerciciosCsharp\\AtualizarEstoque.csproj",
+        "projectUniqueName": "C:\\Users\\Camila Batista\\OneDrive\\Documentos\\4. Estudos\\5. Csharp\\Projetos\\ExerciciosCsharp\\GerenciarFuncionario\\GerenciarFuncionario.csproj",
+        "projectName": "GerenciarFuncionario",
+        "projectPath": "C:\\Users\\Camila Batista\\OneDrive\\Documentos\\4. Estudos\\5. Csharp\\Projetos\\ExerciciosCsharp\\GerenciarFuncionario\\GerenciarFuncionario.csproj",
         "packagesPath": "C:\\Users\\Camila Batista\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Camila Batista\\OneDrive\\Documentos\\4. Estudos\\5. Csharp\\Projetos\\ExerciciosCsharp\\ExerciciosCsharp\\obj\\",
+        "outputPath": "C:\\Users\\Camila Batista\\OneDrive\\Documentos\\4. Estudos\\5. Csharp\\Projetos\\ExerciciosCsharp\\GerenciarFuncionario\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Camila Batista\\AppData\\Roaming\\NuGet\\NuGet.Config",
