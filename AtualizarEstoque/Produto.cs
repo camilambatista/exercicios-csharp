@@ -9,9 +9,30 @@ namespace AtualizaEstoque
 {
     internal class Produto
     {
-        public string Nome;
-        public double Preco;
-        public int Quantidade; 
+        private string _nome;
+        public double Preco { get; private set; }
+        public int Quantidade { get; set; }
+
+        public Produto()
+        {
+        }
+
+        public Produto(string nome, double preco, int quantidade)
+        {
+            _nome = nome;
+            Preco = preco;
+            Quantidade = quantidade;
+        }
+
+        public string Nome
+        {
+            get { return _nome; }
+            set
+            {
+                if (value != null && value.Length > 1)
+                    _nome = value;
+            }
+        }
 
         public double ValorTotalEmEstoque()
         {
@@ -25,17 +46,16 @@ namespace AtualizaEstoque
 
         public void RemoverProdutos(int quantidade)
         {
-            if(quantidade > Quantidade)
+            if (quantidade > Quantidade)
                 Quantidade = 0;
-                
+
             else
                 Quantidade -= quantidade;
         }
 
         public override string ToString()
         {
-            return $"{Nome}, R${Preco.ToString("F2", CultureInfo.InvariantCulture)}, {Quantidade} unidade(s), Total: {ValorTotalEmEstoque().ToString("F2")}";
+            return $"{_nome}, R${Preco.ToString("F2", CultureInfo.InvariantCulture)}, {Quantidade} unidade(s), Total: {ValorTotalEmEstoque().ToString("F2")}";
         }
-
     }
 }

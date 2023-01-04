@@ -3,17 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32901.215
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConversorDeMoeda", "ConversorDeMoeda\ConversorDeMoeda.csproj", "{CB32887B-C60F-4402-BABB-27440938BD05}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConversorDeMoeda", "ConversorDeMoeda\ConversorDeMoeda.csproj", "{CB32887B-C60F-4402-BABB-27440938BD05}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RetornaPessoaMaisVelha", "RetornaPessoaMaisVelha\RetornaPessoaMaisVelha.csproj", "{4431F234-4AC4-48BA-A4FA-0EEF0028A734}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RetornaPessoaMaisVelha", "RetornaPessoaMaisVelha\RetornaPessoaMaisVelha.csproj", "{4431F234-4AC4-48BA-A4FA-0EEF0028A734}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculosRetangulo", "CalculosRetangulo\CalculosRetangulo.csproj", "{B78B58EB-CABA-4358-8CF2-AC050E5F58CB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculosRetangulo", "CalculosRetangulo\CalculosRetangulo.csproj", "{B78B58EB-CABA-4358-8CF2-AC050E5F58CB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalcularMediaAluno", "CalcularMediaAluno\CalcularMediaAluno.csproj", "{49F5EFAF-D53A-47DA-B495-5F753FB342A5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalcularMediaAluno", "CalcularMediaAluno\CalcularMediaAluno.csproj", "{49F5EFAF-D53A-47DA-B495-5F753FB342A5}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AtualizarEstoque", "AtualizarEstoque\AtualizarEstoque.csproj", "{A9717049-73ED-4694-9C24-325455F09DE6}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GerenciarFuncionario", "GerenciarFuncionario\GerenciarFuncionario.csproj", "{8264E030-BC7F-4C65-B5CE-0DEF30B651EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContaBancaria", "ContaBancaria\ContaBancaria.csproj", "{AD7FB649-210F-40C2-877A-1EEF5DA58930}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{8264E030-BC7F-4C65-B5CE-0DEF30B651EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8264E030-BC7F-4C65-B5CE-0DEF30B651EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8264E030-BC7F-4C65-B5CE-0DEF30B651EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD7FB649-210F-40C2-877A-1EEF5DA58930}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD7FB649-210F-40C2-877A-1EEF5DA58930}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD7FB649-210F-40C2-877A-1EEF5DA58930}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD7FB649-210F-40C2-877A-1EEF5DA58930}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

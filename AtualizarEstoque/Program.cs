@@ -6,38 +6,14 @@ namespace AtualizaEstoque
     {
         static void Main(string[] args)
         {
-            Produto p = new Produto();
+ 
+            Produto p = new Produto("TV", 500.00, 10);
 
-            Console.WriteLine("Entre os dados do produto: ");
+            Console.WriteLine(p.Nome);
 
-            Console.Write("Nome: ");
-            p.Nome = Console.ReadLine();
+            p.Nome = "TV 4K";
 
-            Console.Write("Preço: ");
-            p.Preco = double.Parse(Console.ReadLine());
-
-            Console.Write("Quantidade no Estoque: ");
-            p.Quantidade = int.Parse(Console.ReadLine());
-
-            Console.WriteLine("Dados do produto: " + p);
-            Console.WriteLine();
-
-            //Adicionar Produtos
-            Console.Write("Digite a quantidade de produtos a serem adicionadas no estoque: ");
-            int qte = int.Parse(Console.ReadLine());
-
-            p.AdicionarProdutos(qte);
-
-            Console.WriteLine("Dados atualizados: " + p);
-            Console.WriteLine();
-
-            //Remover Produtos
-            Console.Write("Digite a quantidade de produtos a serem removidos do estoque: ");
-            qte = int.Parse(Console.ReadLine());
-
-            p.RemoverProdutos(qte);
-
-            Console.WriteLine("Dados atualizados: " + p);
+            Console.WriteLine(p.Nome);
         }
     }
 }
