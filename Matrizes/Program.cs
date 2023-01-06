@@ -27,16 +27,16 @@
             {
                 for (int j = 0; j < n; j++)
                 {
-                    if(mat[i, j] == number)
+                    if (mat[i, j] == number)
                     {
                         Console.WriteLine($"Position: {i},{j} ");
 
-                        if(j + 1 < n)
+                        if (j + 1 < n)
                             Console.WriteLine($"Right: {mat[i, j + 1]} ");
                         if (j - 1 >= 0)
                             Console.WriteLine($"Left: {mat[i, j - 1]} ");
                         if (i + 1 < m)
-                            Console.WriteLine($"Down: {mat[i+1, j]} ");
+                            Console.WriteLine($"Down: {mat[i + 1, j]} ");
                         if (i - 1 >= 0)
                             Console.WriteLine($"Up: {mat[i - 1, j]} ");
                         Console.WriteLine();
