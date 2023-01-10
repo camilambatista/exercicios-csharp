@@ -25,11 +25,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Matrizes", "Matrizes\Matriz
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Geral", "Geral\Geral.csproj", "{4A4F27E8-40F7-4E78-9E9E-795F1F59C3E5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enums", "Enum\Enums.csproj", "{B9C38582-0773-4674-870D-DF4080A8002E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Enums", "Enum\Enums.csproj", "{B9C38582-0773-4674-870D-DF4080A8002E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composicao", "Composicao\Composicao.csproj", "{76F79D80-CE2E-424F-9EC9-9AAFECCD37CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Composicao", "Composicao\Composicao.csproj", "{76F79D80-CE2E-424F-9EC9-9AAFECCD37CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostarComentarios", "StringBuilder\PostarComentarios.csproj", "{DD324513-600B-4B96-9096-3F865A69D215}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PostarComentarios", "StringBuilder\PostarComentarios.csproj", "{DD324513-600B-4B96-9096-3F865A69D215}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Heranca", "Heranca\Heranca.csproj", "{C027D6DA-6460-409E-8A9C-5C76BF368AF1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Polimorfismo", "Polimorfismo\Polimorfismo.csproj", "{505D8B4F-7050-4673-8FCE-00C583739F39}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EtiquetarProdutos", "EtiquetarProdutos\EtiquetarProdutos.csproj", "{7348B1D3-7260-46FD-B952-1DAF3D1E85B2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MetodosAbstratos", "MetodosAbstratos\MetodosAbstratos.csproj", "{86BB2F20-C308-4CA7-BF36-A55581DA9204}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalcularImposto", "CalcularImposto\CalcularImposto.csproj", "{B14487C5-7941-48D0-BC3F-13AF82AD7718}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +103,26 @@ Global
 		{DD324513-600B-4B96-9096-3F865A69D215}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DD324513-600B-4B96-9096-3F865A69D215}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DD324513-600B-4B96-9096-3F865A69D215}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C027D6DA-6460-409E-8A9C-5C76BF368AF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C027D6DA-6460-409E-8A9C-5C76BF368AF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C027D6DA-6460-409E-8A9C-5C76BF368AF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C027D6DA-6460-409E-8A9C-5C76BF368AF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{505D8B4F-7050-4673-8FCE-00C583739F39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{505D8B4F-7050-4673-8FCE-00C583739F39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{505D8B4F-7050-4673-8FCE-00C583739F39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{505D8B4F-7050-4673-8FCE-00C583739F39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7348B1D3-7260-46FD-B952-1DAF3D1E85B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7348B1D3-7260-46FD-B952-1DAF3D1E85B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7348B1D3-7260-46FD-B952-1DAF3D1E85B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7348B1D3-7260-46FD-B952-1DAF3D1E85B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86BB2F20-C308-4CA7-BF36-A55581DA9204}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86BB2F20-C308-4CA7-BF36-A55581DA9204}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86BB2F20-C308-4CA7-BF36-A55581DA9204}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86BB2F20-C308-4CA7-BF36-A55581DA9204}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B14487C5-7941-48D0-BC3F-13AF82AD7718}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B14487C5-7941-48D0-BC3F-13AF82AD7718}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B14487C5-7941-48D0-BC3F-13AF82AD7718}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B14487C5-7941-48D0-BC3F-13AF82AD7718}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
