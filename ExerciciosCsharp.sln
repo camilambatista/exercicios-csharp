@@ -15,7 +15,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AtualizarEstoque", "Atualiz
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GerenciarFuncionario", "GerenciarFuncionario\GerenciarFuncionario.csproj", "{8264E030-BC7F-4C65-B5CE-0DEF30B651EB}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContaBancaria", "ContaBancaria\ContaBancaria.csproj", "{AD7FB649-210F-40C2-877A-1EEF5DA58930}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OperacoesContaBancaria", "ContaBancaria\OperacoesContaBancaria.csproj", "{AD7FB649-210F-40C2-877A-1EEF5DA58930}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vetores", "Vetores\Vetores.csproj", "{1221ADAB-2405-4759-B565-0612718DE1B5}"
 EndProject
@@ -39,7 +39,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EtiquetarProdutos", "Etique
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MetodosAbstratos", "MetodosAbstratos\MetodosAbstratos.csproj", "{86BB2F20-C308-4CA7-BF36-A55581DA9204}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalcularImposto", "CalcularImposto\CalcularImposto.csproj", "{B14487C5-7941-48D0-BC3F-13AF82AD7718}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalcularImposto", "CalcularImposto\CalcularImposto.csproj", "{B14487C5-7941-48D0-BC3F-13AF82AD7718}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Excecoes", "Excecoes\Excecoes.csproj", "{CC499961-DA54-46FE-A2B8-C2363ED1BC85}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -123,6 +125,10 @@ Global
 		{B14487C5-7941-48D0-BC3F-13AF82AD7718}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B14487C5-7941-48D0-BC3F-13AF82AD7718}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B14487C5-7941-48D0-BC3F-13AF82AD7718}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC499961-DA54-46FE-A2B8-C2363ED1BC85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC499961-DA54-46FE-A2B8-C2363ED1BC85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC499961-DA54-46FE-A2B8-C2363ED1BC85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC499961-DA54-46FE-A2B8-C2363ED1BC85}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

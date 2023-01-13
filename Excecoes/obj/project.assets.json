@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Camila Batista\\OneDrive\\Documentos\\4. Estudos\\5. Csharp\\Projetos\\ExerciciosCsharp\\ContaBancaria\\OperacoesContaBancaria.csproj",
-      "projectName": "OperacoesContaBancaria",
-      "projectPath": "C:\\Users\\Camila Batista\\OneDrive\\Documentos\\4. Estudos\\5. Csharp\\Projetos\\ExerciciosCsharp\\ContaBancaria\\OperacoesContaBancaria.csproj",
+      "projectUniqueName": "C:\\Users\\Camila Batista\\OneDrive\\Documentos\\4. Estudos\\5. Csharp\\Projetos\\ExerciciosCsharp\\Excecoes\\Excecoes.csproj",
+      "projectName": "Excecoes",
+      "projectPath": "C:\\Users\\Camila Batista\\OneDrive\\Documentos\\4. Estudos\\5. Csharp\\Projetos\\ExerciciosCsharp\\Excecoes\\Excecoes.csproj",
       "packagesPath": "C:\\Users\\Camila Batista\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Camila Batista\\OneDrive\\Documentos\\4. Estudos\\5. Csharp\\Projetos\\ExerciciosCsharp\\ContaBancaria\\obj\\",
+      "outputPath": "C:\\Users\\Camila Batista\\OneDrive\\Documentos\\4. Estudos\\5. Csharp\\Projetos\\ExerciciosCsharp\\Excecoes\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Camila Batista\\AppData\\Roaming\\NuGet\\NuGet.Config",

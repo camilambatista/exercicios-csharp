@@ -1,54 +1,43 @@
 ﻿using System.Globalization;
+using OperacoesContaBancaria.Entities;
+using OperacoesContaBancaria.Entities.Exceptions;
 
-namespace ContaBancaria
+namespace OperacoesContaBancaria
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.Write("Entre o número da conta: ");
-            int numero = int.Parse(Console.ReadLine());
-
-            Console.Write("Entre o titular da conta: ");
-            string titular = Console.ReadLine();
-
-            Console.Write("Haverá depósito inicial (s/n)? ");
-            string respostaDeposito = Console.ReadLine();
-
-            ContaBancaria contaBancaria;
-
-            if (respostaDeposito.ToLower() == "s")
+            try
             {
-                Console.Write("Entre o valor de depósito inicial: ");
-                double quantia = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+                Console.WriteLine("Enter account data: ");
 
-                contaBancaria = new ContaBancaria(titular, numero, quantia);
+                Console.Write("Number: ");
+                int number = int.Parse(Console.ReadLine());
+                Console.Write("Holder: ");
+                string holder = Console.ReadLine();
+                Console.Write("Initial balance: ");
+                double amount = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+                Console.Write("Withdraw limit: ");
+                double withdrawLimit = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+
+                ContaBancaria contaBancaria = new ContaBancaria(holder, number, amount, withdrawLimit);
+
+                Console.Write("Enter amount for withdraw: ");
+                double amountWithdraw = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+
+                contaBancaria.Sacar(amountWithdraw);
+
+                Console.WriteLine("New balance: " + contaBancaria.Balance.ToString("F2", CultureInfo.InvariantCulture));
             }
-            else
+            catch(DomainException e)
             {
-                contaBancaria = new ContaBancaria(titular, numero);
+                Console.WriteLine("Withdraw error: " + e.Message);
             }
-
-            Console.WriteLine();
-            Console.WriteLine("Dados da conta: ");
-            Console.WriteLine(contaBancaria.ToString());
-            Console.WriteLine();
-
-            Console.Write("Entre um valor para depósito: ");
-            double valorDeposito = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-            contaBancaria.Depositar(valorDeposito);
-
-            Console.WriteLine("Dados da conta atualizados: ");
-            Console.WriteLine(contaBancaria.ToString());
-            Console.WriteLine();
-
-            Console.Write("Entre um valor para saque: ");
-            double valorSaque = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-            contaBancaria.Sacar(valorSaque);
-
-            Console.WriteLine("Dados da conta atualizados: ");
-            Console.WriteLine(contaBancaria.ToString());
-            Console.WriteLine();
+            catch (Exception e)
+            {
+                Console.WriteLine("Unexpected error: " + e.Message);
+            }
         }
     }
 }
