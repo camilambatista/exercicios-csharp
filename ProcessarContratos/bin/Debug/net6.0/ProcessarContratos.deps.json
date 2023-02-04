@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "ProcessarContratos/1.0.0": {
+        "runtime": {
+          "ProcessarContratos.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ProcessarContratos/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
