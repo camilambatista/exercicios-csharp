@@ -47,7 +47,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interfaces", "Interfaces\In
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arquivos", "Arquivos\Arquivos.csproj", "{58019057-C327-4D0B-8B81-EAD8642240F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProcessarContratos", "ProcessarContratos\ProcessarContratos.csproj", "{1A38FCDF-D977-44CD-8A70-21FA4138973A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProcessarContratos", "ProcessarContratos\ProcessarContratos.csproj", "{1A38FCDF-D977-44CD-8A70-21FA4138973A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Conjuntos", "Conjuntos\Conjuntos.csproj", "{7C68A9EB-F6FD-4B1B-8E4D-158D0E595297}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dictionary", "Dictionary\Dictionary.csproj", "{72534AB5-BA09-4AF5-A88C-E382A007CBD6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -147,6 +151,14 @@ Global
 		{1A38FCDF-D977-44CD-8A70-21FA4138973A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A38FCDF-D977-44CD-8A70-21FA4138973A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A38FCDF-D977-44CD-8A70-21FA4138973A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C68A9EB-F6FD-4B1B-8E4D-158D0E595297}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C68A9EB-F6FD-4B1B-8E4D-158D0E595297}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C68A9EB-F6FD-4B1B-8E4D-158D0E595297}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C68A9EB-F6FD-4B1B-8E4D-158D0E595297}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72534AB5-BA09-4AF5-A88C-E382A007CBD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72534AB5-BA09-4AF5-A88C-E382A007CBD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72534AB5-BA09-4AF5-A88C-E382A007CBD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72534AB5-BA09-4AF5-A88C-E382A007CBD6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,5 +1,4 @@
-﻿using System.Drawing;
-using ProcessarContratos.Entities;
+﻿using ProcessarContratos.Entities;
 
 namespace ProcessarContratos.Services
 {
