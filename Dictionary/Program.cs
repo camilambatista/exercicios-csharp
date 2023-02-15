@@ -7,7 +7,13 @@ namespace Dictionary
         static void Main(string[] args)
         {
             Console.Write("Enter file full path: ");
-            string path = Console.ReadLine();
+            string path = @"C:\temp\teste.xlsx";
+
+            int lines = File.ReadAllLines(path).Count();
+
+            Console.ReadLine();
+
+            Console.WriteLine(lines);
 
             try
             {
@@ -30,6 +36,8 @@ namespace Dictionary
                             dictionary[name] = votes;
                         }
                     }
+
+                    
 
                     foreach (var item in dictionary)
                     {
